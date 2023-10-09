@@ -15,14 +15,22 @@ export default function FooterNav(props: IfooterNav) {
       <div className=" flex items-center justify-center w-7 h-7">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`fill-${color} object-contain`}
+          className={`${
+            props.color === "dblue" ? "fill-dblue" : "fill-grey opacity-50"
+          } object-contain`}
           width={props.svg.width}
           height={props.svg.height}
         >
           <path d={props.svg.path} />
         </svg>
       </div>
-      <p className={` text-${color} inline`}>{props.text}</p>
+      <p
+        className={`${
+          props.color === "dblue" ? "text-dblue" : "text-grey opacity-50"
+        } inline`}
+      >
+        {props.text}
+      </p>
     </div>
   );
 }
