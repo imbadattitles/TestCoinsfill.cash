@@ -5,7 +5,7 @@ import { MyButton } from "./MyButton";
 
 const PopUpAuth: React.FC = () => {
   const [authType, setAuthType] = useState<"Login" | "Registration" | null>(
-    "Login"
+    null
   );
   return (
     <>

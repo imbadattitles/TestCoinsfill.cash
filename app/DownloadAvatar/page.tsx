@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { getCropped } from "../components/getCropped";
 import { MyButton } from "../components/MyButton";
 import { useRouter } from "next/navigation";
@@ -64,7 +64,9 @@ export default function DownLoadAvatar() {
   const [crop, setCrop] = useState<Crop>();
   const [completedCrop, setCompletedCrop] = useState<any>();
 
-  if (!auth) return router.push("./");
+  useEffect(() => {
+    if (!auth) return router.push("./");
+  });
 
   return (
     <main style={{ flex: "1 0 auto" }} className=" mx-8 mt-8">
