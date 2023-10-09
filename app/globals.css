@@ -2,26 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .btn-orange {
+    @apply text-white text-sm font-bold p-4 border-none rounded-full bg-gradient-to-r from-yellow to-orange cursor-pointer;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .btn-blue {
+    @apply text-white text-sm font-bold p-4 border-none rounded-full bg-gradient-to-r from-dblue to-blue cursor-pointer;
+  }
+  .btn-white {
+    @apply text-[#1E1E2E] text-sm font-bold p-4 border-none rounded-full bg-[#EDEBFB] cursor-pointer;
+  }
+  .btn-shadow {
+    @apply shadow-[0px_4px_20px_0px_rgba(104,109,224,0.50)];
+  }
 }
