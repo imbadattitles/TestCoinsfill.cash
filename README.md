@@ -1,6 +1,6 @@
 Регистрация и логин, загрузка аватара с редактированием
 
-Next, TypeScript, Redux, Antd для формы, Redux, React Image Crop для кропа аватара
+Next, TypeScript, Redux, Tailwind, Antd для формы, Redux, React Image Crop для кропа аватара
 
 Используется стороннее Api, для наглядности сохраняю ссылку на фигму https://www.figma.com/file/JjYDnhmRCaqQidE6F0uajG/CoinsFill?type=design&node-id=0%3A1&mode=design&t=8JWr0xddDPjW4Gj8-1
 
