@@ -1,3 +1,10 @@
+Регистрация и логин, загрузка аватара с редактированием
+Next, TypeScript, Redux, Antd для формы, Redux, React Image Crop для кропа аватара
+
+Используется стороннее Api, для наглядности сохраняю снимки экрана https://imbadattitles.com/photosStore/v0cZGlqoi3s.jpg https://imbadattitles.com/photosStore/wRb-p_Eoquc.jpg
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
