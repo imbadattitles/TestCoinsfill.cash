@@ -1,8 +1,7 @@
 Регистрация и логин, загрузка аватара с редактированием
 Next, TypeScript, Redux, Antd для формы, Redux, React Image Crop для кропа аватара
 
-Используется стороннее Api, для наглядности сохраняю снимки экрана https://imbadattitles.com/photosStore/v0cZGlqoi3s.jpg https://imbadattitles.com/photosStore/wRb-p_Eoquc.jpg
-
+Используется стороннее Api, для наглядности сохраняю ссылку на фигму https://www.figma.com/file/JjYDnhmRCaqQidE6F0uajG/CoinsFill?type=design&node-id=0%3A1&mode=design&t=8JWr0xddDPjW4Gj8-1
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
