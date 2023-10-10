@@ -8,12 +8,8 @@ import jwtDecode from "jwt-decode";
 export const onFinishLogin = async (
   values: FieldType,
   router: AppRouterInstance,
-  checked: boolean,
   dispatch: Idispatch
 ) => {
-  values.agree = checked;
-
-  if (values.agree === false) return alert("Подтвердите согласие");
   let response = await fetch("https://test-task.test211.workers.dev/login", {
     method: "POST",
     body: JSON.stringify({
